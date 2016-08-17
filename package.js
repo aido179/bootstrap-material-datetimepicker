@@ -16,7 +16,7 @@ Package.onUse(function(api) {
   api.use('underscore');
   api.use('momentjs:moment@2.9.0');
   api.use('jquery');
-  api.use('fortawesome:fontawesome');
+  api.use('fortawesome:fontawesome@4.5.0');
 
   api.addFiles('css/bootstrap-material-datetimepicker.css', 'client');
   api.addFiles('js/bootstrap-material-datetimepicker.js', 'client');
