@@ -1,12 +1,13 @@
 # bootstrap-material-datetimepicker
-Material DateTimePicker 
+Material DateTimePicker
 
-Originaly designed for Bootstrap Material, the V2.0 is now completely standalone and responsive.
+Originally designed for Bootstrap Material, the V2.0 is now completely standalone and responsive.
 
 ### Updates
 
 | Date				| Author			| Description											 |
 | ----------------- | ----------------- | ------------------------------------------------------ |
+| 2016-17-08		| aido179			| Created atmosphere package, replaced material icons with fontawesome. 								 	 		 |
 | 2016-04-08		| T00rk				| Fixed #85	 								 	 		 |
 | 2016-04-08		| FoxyCorndog		| Fix PM overwrite bug	 					 	 		 |
 | 2016-02-17		| T00rk				| Changed Clock to SVG	 					 	 		 |
@@ -28,12 +29,12 @@ Originaly designed for Bootstrap Material, the V2.0 is now completely standalone
 | 2015-04-10		| Peterzen			| Added bower and requirejs support						 |
 | 2015-04-08		| T00rk				| Fixed problem on locale switch						 |
 | 2015-03-04		| T00rk				| Added Time picker										 |
-(\*) File names have been changed 
+(\*) File names have been changed
 
 bootstrap-material-datepicker.js => bootstrap-material-date**time**picker.js
 
 bootstrap-material-datepicker.css => bootstrap-material-date**time**picker.css
-	
+
 ### Prerequisites
 
 jquery [http://jquery.com/download/](http://jquery.com/download/)
@@ -54,7 +55,7 @@ Google Material Icon Font `<link href="https://fonts.googleapis.com/icon?family=
 ### bower
 
 	bower install bootstrap-material-datetimepicker
-	
+
 ### Parameters
 
 | Name				| Type							| Description									|
@@ -94,5 +95,3 @@ Google Material Icon Font `<link href="https://fonts.googleapis.com/icon?family=
 | **setMinDate**	| (String\|Date\|Moment)	| Set minimum selectable date	|
 | **setMaxDate**	| (String\|Date\|Moment)	| Set maximum selectable date	|
 | **destroy**		| NULL						| Destroy the datepicker		|
-
-	
